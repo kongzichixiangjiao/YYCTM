@@ -36,20 +36,23 @@
                                    NSForegroundColorAttributeName : self.model.color,
                                    
                                    };
-//            NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:self.model.text attributes:attr];
-            NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%d--%d", i, j] attributes:attr];
+            NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:self.model.text attributes:attr];
+//            NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%d--%d", i, j] attributes:attr];
             CGFloat strWidth = attrStr.size.width;
             CGFloat strHeight = attrStr.size.height;
             l.attributedText = attrStr;
             /*
+             // 样式一
              if (i % 2 == 0) {
              l.frame = CGRectMake(j * (self.model.rowSpace + strWidth), i * (strHeight + self.model.lineSpace), strWidth, strHeight);
              } else {
              l.frame = CGRectMake(-strWidth + j * (self.model.rowSpace + strWidth), i * (strHeight + self.model.lineSpace), strWidth, strHeight);
              }
              */
-            
-            l.frame = CGRectMake(i * (self.model.rowSpace + strWidth), j * (strHeight + self.model.lineSpace), strWidth, strHeight);
+            // 样式二
+            CGFloat a = self.model.rowSpace + strWidth;
+            CGFloat b = self.model.lineSpace + strHeight;
+            l.frame = CGRectMake(i * (self.model.rowSpace + strWidth), j * (strHeight + self.model.lineSpace) - i * sqrtf(a * a + b * b), strWidth, strHeight);
 
             l.transform = CGAffineTransformRotate(l.transform, -0.4);
             [self addSubview:l];

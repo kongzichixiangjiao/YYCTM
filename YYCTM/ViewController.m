@@ -27,7 +27,7 @@
     model.text= @"1234 侯佳男";
     model.rowSpace = 150;
     model.lineSpace = 180;
-    model.row = 5;
+    model.row = 7;
     model.line = 3;
     model.color = [UIColor whiteColor];
     model.font = [UIFont systemFontOfSize:15];
