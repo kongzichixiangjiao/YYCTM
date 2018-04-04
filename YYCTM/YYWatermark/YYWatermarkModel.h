@@ -19,4 +19,5 @@
 @property(nonatomic, assign)CGFloat lineSpace;
 @property(nonatomic, strong)UIColor *color;
 @property(nonatomic, strong)UIFont *font;
+
 @end

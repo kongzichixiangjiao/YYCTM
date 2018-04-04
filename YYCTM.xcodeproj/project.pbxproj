@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC10FC5020749FA5009F59AB /* 7518841168_IMG_8189.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DC10FC4F20749FA5009F59AB /* 7518841168_IMG_8189.JPG */; };
+		DC10FC5F2074AC6F009F59AB /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10FC542074AC6F009F59AB /* YYTextView.m */; };
+		DC10FC602074AC6F009F59AB /* UIImage+watermark.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10FC572074AC6F009F59AB /* UIImage+watermark.m */; };
+		DC10FC612074AC6F009F59AB /* YYCatchTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10FC5A2074AC6F009F59AB /* YYCatchTools.m */; };
+		DC10FC622074AC6F009F59AB /* YYWatermarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10FC5D2074AC6F009F59AB /* YYWatermarkManager.m */; };
+		DC10FC632074AC6F009F59AB /* YYWatermarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10FC5E2074AC6F009F59AB /* YYWatermarkModel.m */; };
 		DCF6D28120732D52000E9DA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D28020732D52000E9DA8 /* AppDelegate.m */; };
 		DCF6D28420732D52000E9DA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D28320732D52000E9DA8 /* ViewController.m */; };
 		DCF6D28720732D52000E9DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF6D28520732D52000E9DA8 /* Main.storyboard */; };
@@ -15,14 +21,9 @@
 		DCF6D28F20732D52000E9DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D28E20732D52000E9DA8 /* main.m */; };
 		DCF6D29920732D52000E9DA8 /* YYCTMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D29820732D52000E9DA8 /* YYCTMTests.m */; };
 		DCF6D2A420732D52000E9DA8 /* YYCTMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2A320732D52000E9DA8 /* YYCTMUITests.m */; };
-		DCF6D2B320732D79000E9DA8 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2B220732D79000E9DA8 /* TextView.m */; };
 		DCF6D2B62073323B000E9DA8 /* UIImage+SubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2B42073323B000E9DA8 /* UIImage+SubImage.m */; };
 		DCF6D2BB2073325D000E9DA8 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2B82073325D000E9DA8 /* UIImage+Color.m */; };
 		DCF6D2BC2073325D000E9DA8 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2B92073325D000E9DA8 /* UIImage+Rotate.m */; };
-		DCF6D2BF2073580A000E9DA8 /* UIImage+watermark.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2BE2073580A000E9DA8 /* UIImage+watermark.m */; };
-		DCF6D2C2207358D5000E9DA8 /* YYWatermarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2C1207358D5000E9DA8 /* YYWatermarkManager.m */; };
-		DCF6D2C5207359B6000E9DA8 /* YYWatermarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2C4207359B6000E9DA8 /* YYWatermarkModel.m */; };
-		DCF6D2C820737CBD000E9DA8 /* YYCatchTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6D2C720737CBD000E9DA8 /* YYCatchTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC10FC4F20749FA5009F59AB /* 7518841168_IMG_8189.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7518841168_IMG_8189.JPG; sourceTree = "<group>"; };
+		DC10FC522074A18E009F59AB /* YYWatermarkHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWatermarkHeader.pch; sourceTree = "<group>"; };
+		DC10FC542074AC6F009F59AB /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		DC10FC552074AC6F009F59AB /* YYCatchTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCatchTools.h; sourceTree = "<group>"; };
+		DC10FC562074AC6F009F59AB /* YYWatermarkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWatermarkHeader.h; sourceTree = "<group>"; };
+		DC10FC572074AC6F009F59AB /* UIImage+watermark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+watermark.m"; sourceTree = "<group>"; };
+		DC10FC582074AC6F009F59AB /* YYWatermarkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWatermarkModel.h; sourceTree = "<group>"; };
+		DC10FC592074AC6F009F59AB /* YYWatermarkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWatermarkManager.h; sourceTree = "<group>"; };
+		DC10FC5A2074AC6F009F59AB /* YYCatchTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCatchTools.m; sourceTree = "<group>"; };
+		DC10FC5B2074AC6F009F59AB /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		DC10FC5C2074AC6F009F59AB /* UIImage+watermark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+watermark.h"; sourceTree = "<group>"; };
+		DC10FC5D2074AC6F009F59AB /* YYWatermarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWatermarkManager.m; sourceTree = "<group>"; };
+		DC10FC5E2074AC6F009F59AB /* YYWatermarkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWatermarkModel.m; sourceTree = "<group>"; };
 		DCF6D27C20732D52000E9DA8 /* YYCTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYCTM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF6D27F20732D52000E9DA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCF6D28020732D52000E9DA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,22 +73,12 @@
 		DCF6D29F20732D52000E9DA8 /* YYCTMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYCTMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF6D2A320732D52000E9DA8 /* YYCTMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCTMUITests.m; sourceTree = "<group>"; };
 		DCF6D2A520732D52000E9DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCF6D2B120732D79000E9DA8 /* TextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
-		DCF6D2B220732D79000E9DA8 /* TextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
 		DCF6D2B42073323B000E9DA8 /* UIImage+SubImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SubImage.m"; sourceTree = "<group>"; };
 		DCF6D2B52073323B000E9DA8 /* UIImage+SubImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SubImage.h"; sourceTree = "<group>"; };
 		DCF6D2B72073325C000E9DA8 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		DCF6D2B82073325D000E9DA8 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		DCF6D2B92073325D000E9DA8 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
 		DCF6D2BA2073325D000E9DA8 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
-		DCF6D2BD2073580A000E9DA8 /* UIImage+watermark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+watermark.h"; sourceTree = "<group>"; };
-		DCF6D2BE2073580A000E9DA8 /* UIImage+watermark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+watermark.m"; sourceTree = "<group>"; };
-		DCF6D2C0207358D5000E9DA8 /* YYWatermarkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWatermarkManager.h; sourceTree = "<group>"; };
-		DCF6D2C1207358D5000E9DA8 /* YYWatermarkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWatermarkManager.m; sourceTree = "<group>"; };
-		DCF6D2C3207359B6000E9DA8 /* YYWatermarkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWatermarkModel.h; sourceTree = "<group>"; };
-		DCF6D2C4207359B6000E9DA8 /* YYWatermarkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWatermarkModel.m; sourceTree = "<group>"; };
-		DCF6D2C620737CBD000E9DA8 /* YYCatchTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCatchTools.h; sourceTree = "<group>"; };
-		DCF6D2C720737CBD000E9DA8 /* YYCatchTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCatchTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC10FC532074AC6F009F59AB /* YYWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				DC10FC4F20749FA5009F59AB /* 7518841168_IMG_8189.JPG */,
+				DC10FC5C2074AC6F009F59AB /* UIImage+watermark.h */,
+				DC10FC572074AC6F009F59AB /* UIImage+watermark.m */,
+				DC10FC552074AC6F009F59AB /* YYCatchTools.h */,
+				DC10FC5A2074AC6F009F59AB /* YYCatchTools.m */,
+				DC10FC5B2074AC6F009F59AB /* YYTextView.h */,
+				DC10FC542074AC6F009F59AB /* YYTextView.m */,
+				DC10FC562074AC6F009F59AB /* YYWatermarkHeader.h */,
+				DC10FC592074AC6F009F59AB /* YYWatermarkManager.h */,
+				DC10FC5D2074AC6F009F59AB /* YYWatermarkManager.m */,
+				DC10FC582074AC6F009F59AB /* YYWatermarkModel.h */,
+				DC10FC5E2074AC6F009F59AB /* YYWatermarkModel.m */,
+			);
+			path = YYWatermark;
+			sourceTree = "<group>";
+		};
 		DCF6D27320732D52000E9DA8 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +148,7 @@
 		DCF6D27E20732D52000E9DA8 /* YYCTM */ = {
 			isa = PBXGroup;
 			children = (
+				DC10FC532074AC6F009F59AB /* YYWatermark */,
 				DCF6D27F20732D52000E9DA8 /* AppDelegate.h */,
 				DCF6D28020732D52000E9DA8 /* AppDelegate.m */,
 				DCF6D28220732D52000E9DA8 /* ViewController.h */,
@@ -135,16 +159,7 @@
 				DCF6D2B82073325D000E9DA8 /* UIImage+Color.m */,
 				DCF6D2BA2073325D000E9DA8 /* UIImage+Rotate.h */,
 				DCF6D2B92073325D000E9DA8 /* UIImage+Rotate.m */,
-				DCF6D2B120732D79000E9DA8 /* TextView.h */,
-				DCF6D2B220732D79000E9DA8 /* TextView.m */,
-				DCF6D2BD2073580A000E9DA8 /* UIImage+watermark.h */,
-				DCF6D2BE2073580A000E9DA8 /* UIImage+watermark.m */,
-				DCF6D2C0207358D5000E9DA8 /* YYWatermarkManager.h */,
-				DCF6D2C1207358D5000E9DA8 /* YYWatermarkManager.m */,
-				DCF6D2C3207359B6000E9DA8 /* YYWatermarkModel.h */,
-				DCF6D2C4207359B6000E9DA8 /* YYWatermarkModel.m */,
-				DCF6D2C620737CBD000E9DA8 /* YYCatchTools.h */,
-				DCF6D2C720737CBD000E9DA8 /* YYCatchTools.m */,
+				DC10FC522074A18E009F59AB /* YYWatermarkHeader.pch */,
 				DCF6D28520732D52000E9DA8 /* Main.storyboard */,
 				DCF6D28820732D52000E9DA8 /* Assets.xcassets */,
 				DCF6D28A20732D52000E9DA8 /* LaunchScreen.storyboard */,
@@ -278,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC10FC5020749FA5009F59AB /* 7518841168_IMG_8189.JPG in Resources */,
 				DCF6D28C20732D52000E9DA8 /* LaunchScreen.storyboard in Resources */,
 				DCF6D28920732D52000E9DA8 /* Assets.xcassets in Resources */,
 				DCF6D28720732D52000E9DA8 /* Main.storyboard in Resources */,
@@ -305,17 +321,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF6D2C2207358D5000E9DA8 /* YYWatermarkManager.m in Sources */,
+				DC10FC632074AC6F009F59AB /* YYWatermarkModel.m in Sources */,
+				DC10FC602074AC6F009F59AB /* UIImage+watermark.m in Sources */,
 				DCF6D2B62073323B000E9DA8 /* UIImage+SubImage.m in Sources */,
 				DCF6D28420732D52000E9DA8 /* ViewController.m in Sources */,
-				DCF6D2B320732D79000E9DA8 /* TextView.m in Sources */,
-				DCF6D2C5207359B6000E9DA8 /* YYWatermarkModel.m in Sources */,
+				DC10FC612074AC6F009F59AB /* YYCatchTools.m in Sources */,
 				DCF6D2BB2073325D000E9DA8 /* UIImage+Color.m in Sources */,
 				DCF6D28F20732D52000E9DA8 /* main.m in Sources */,
+				DC10FC622074AC6F009F59AB /* YYWatermarkManager.m in Sources */,
+				DC10FC5F2074AC6F009F59AB /* YYTextView.m in Sources */,
 				DCF6D2BC2073325D000E9DA8 /* UIImage+Rotate.m in Sources */,
-				DCF6D2C820737CBD000E9DA8 /* YYCatchTools.m in Sources */,
 				DCF6D28120732D52000E9DA8 /* AppDelegate.m in Sources */,
-				DCF6D2BF2073580A000E9DA8 /* UIImage+watermark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +496,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M64M9WGH3L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/YYWatermarkHeader.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = YYCTM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jianan.YYCTM;
@@ -494,6 +512,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M64M9WGH3L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/YYWatermarkHeader.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = YYCTM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jianan.YYCTM;

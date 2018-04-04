@@ -6,9 +6,9 @@
 //  Copyright © 2018年 houjianan. All rights reserved.
 //
 
-#import "TextView.h"
+#import "YYTextView.h"
 
-@implementation TextView
+@implementation YYTextView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -22,7 +22,7 @@
     _model = model;
     
     [self initViews];
-    self.backgroundColor = [UIColor greenColor];
+    self.backgroundColor = [UIColor clearColor];
 }
 
 - (void)initViews {

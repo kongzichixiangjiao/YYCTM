@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "YYWatermarkModel.h"
-@interface TextView : UIView
+@interface YYTextView : UIView
 
 @property(nonatomic,strong)YYWatermarkModel *model;
 

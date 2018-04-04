@@ -7,7 +7,7 @@
 //
 
 #import "YYWatermarkManager.h"
-#import "TextView.h"
+#import "YYTextView.h"
 #import "UIImage+watermark.h"
 #import "YYCatchTools.h"
 @interface YYWatermarkManager()
@@ -38,7 +38,7 @@
 }
 
 + (UIImage *)getDefaultWatermarkImageWithText: (NSString *)text andFrame: (CGRect)frame {
-    TextView *t = [[TextView alloc] initWithFrame:frame];
+    YYTextView *t = [[YYTextView alloc] initWithFrame:frame];
     t.text= @"13146218617 侯佳男";
     t.rowSpace = 100;
     t.lineSpace = 150;
@@ -48,16 +48,14 @@
     t.font = [UIFont systemFontOfSize:15];
     [t initViews];
     
-    
     return [UIImage yy_imageFromView:t];
 }
 
 + (UIImage *)getDefaultWatermarkImageWithModel: (YYWatermarkModel *)model {
-    NSLog(@"text == %@", model.text);
     if ([YYCatchTools yy_hasImageWithName:model.text]) {
         return [YYCatchTools yy_getCatchImageWithName:model.text];
     }
-    TextView *t = [[TextView alloc] initWithFrame:model.mRect];
+    YYTextView *t = [[YYTextView alloc] initWithFrame:model.mRect];
     t.model= model;
     [t initViews];
     
@@ -85,7 +83,7 @@
 }
 
 - (UIImage *)getDefaultWatermarkImageWithText: (NSString *)text andFrame: (CGRect)frame {
-    TextView *t = [[TextView alloc] initWithFrame:frame];
+    YYTextView *t = [[YYTextView alloc] initWithFrame:frame];
     t.text= @"13146218617 侯佳男";
     t.rowSpace = 100;
     t.lineSpace = 150;
@@ -100,7 +98,7 @@
 }
 
 - (UIImage *)getDefaultWatermarkImageWithModel: (YYWatermarkModel *)model {
-    TextView *t = [[TextView alloc] initWithFrame:model.mRect];
+    YYTextView *t = [[YYTextView alloc] initWithFrame:model.mRect];
     t.model= model;
     [t initViews];
     
